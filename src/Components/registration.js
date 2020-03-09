@@ -14,7 +14,7 @@ const  Registration = ()=>{
       alert("hola")
     })
     .catch(function(error) {
-      // Handle Errors here.
+      
       var errorCode = error.code;
       console.log(errorCode)
       var errorMessage = error.message;

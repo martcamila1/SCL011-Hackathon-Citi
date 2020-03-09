@@ -10,7 +10,7 @@ const SignIn = ()=>{
   let sendFirebase =() =>{
     auth.signInWithEmailAndPassword(email, password)
     .then(function(){
-      alert("chao")
+      alert("chaolin")
     })
     
     .catch(function(error) {
