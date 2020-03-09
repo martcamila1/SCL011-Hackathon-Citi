@@ -4,7 +4,7 @@ import {auth} from '../firebase-config/firebaseInit'
 
 
 
-const Registry = ()=>{
+const Registration = ()=>{
   const[email , setEmail]=useState('');
   const[password , setPassword ]=useState('');
 
@@ -30,6 +30,6 @@ const Registry = ()=>{
   )
 }
 
-export default Registry;
+export default Registration;
 
 
