@@ -1,0 +1,79 @@
+.containerRegistration{
+  display: flex;
+  flex-direction: column;
+  
+}
+.containerText{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+position: absolute;
+width: 580px;
+height: 135px;
+left: 483px;
+top: 0px;
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 67px;
+color: #000000;
+}
+.intruccion{
+position: absolute;
+width: 667px;
+height: 85px;
+left: 478px;
+top: 200px;
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 140.62%;
+color: #000000;
+}
+.intruccionStart{
+  position: absolute;
+width: 667px;
+height: 43px;
+left: 478px;
+top: 320px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 140.62%;
+color: #000000;
+
+}
+
+.containerOption{
+  position: relative;
+  width: 298px;
+  height: 281px;
+  left: 536px;
+  top: 430px;
+  background: #003B4F;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  margin-right: 172px;
+}
+.containerOption:focus{
+  outline: brown 2px solid;
+}
+
+.containerButtonOptions{
+  display: flex;
+  flex-direction: row;
+}
+.titleOption{
+  
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+color: #F9F9F9;
+}

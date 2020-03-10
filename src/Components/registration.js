@@ -25,7 +25,7 @@ const  Registration = ()=>{
   // console.log(password)
   }
   return(
-    <div className="containerRegistration">
+    <div className="containerRegistration2">
       <div>
         <div className="ini">
           <div className="">
