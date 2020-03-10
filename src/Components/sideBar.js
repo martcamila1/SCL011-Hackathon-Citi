@@ -7,6 +7,7 @@ const Sidebar = ()=>{
     
      <aside className="containerAside">
        <p className="welcome">Bienvenido</p>
+       <p className="nameUser"> Josefina Carrasco</p>
       <Link to="Pago"><button className="buttonAside">Pagar cuentas</button></Link>
       <button className="buttonAside">Añadir/Editar Cuenta</button>
       <button className="buttonAside">Añadir/Editar medio de pago</button>

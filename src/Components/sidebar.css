@@ -47,8 +47,25 @@ justify-content: center
   align-items: center;
   color: #003B4F;
   margin-left: 38px;
+  margin-top: 69px;
+  margin-bottom: 0px;
   
   }
-
+  .nameUser{
+    left: 9.92%;
+    right: 9.92%;
+    top: 14.67%;
+    bottom: 76.05%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #27292C;
+    margin-left: 38px;
+    margin-top: 16px
+    }
 
 

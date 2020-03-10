@@ -11,18 +11,20 @@ const DataStart = () =>{
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
          et dolore magna aliqua.
          </p>
-        <p className="intruccionStart">¿Qué quieres hacer primero?</p> 
+        {/* <p className="intruccionStart">¿Qué quieres hacer primero?</p>  */}
       </div>
      <div className="containerButtonOptions">
      <button onClick={()=>{alert("sjhajshdajs")}}className="containerOption">
        <p className="titleOption">Métodos de Pago</p>
-       <p className="add">Añadi diferentes medios de pago etc.</p>
+       <hr/>
+       <p className="add">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
       
       </button> 
 
       <button className="containerOption">
-       <p className="itleOption">Cuentas</p>
-       <p className="add">Inscribe diferentes cuentas a pagar</p>
+       <p className="titleOption">Cuentas</p>
+       <hr/>
+       <p className="add">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
        
       </button>
 
