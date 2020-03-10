@@ -4,6 +4,7 @@ import Registration from './Components/registration';
 import {BrowserRouter ,Route} from 'react-router-dom'
 import Feed from './Components/feed'
 import Signin from './Components/signIn';
+import Pago from './Components/payBills';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route exact path="/" component={ Registration}></Route>
       <Route path="/Login" component={Signin}></Route>
       <Route path="/Feed" component={Feed}></Route>
+      <Route path="/Pago" component={Pago}></Route>
     
       </BrowserRouter>
     </div>

@@ -1,0 +1,116 @@
+.containerAdd{
+  background: #F9F9F9;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+width: 298px;
+height: 281px;
+left: 410px;
+top: 243px;
+position: relative;
+margin-left: 20px;
+}
+
+.accountName{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #003B4F;
+position: absolute;
+position: absolute;
+left: 9.4%;
+right: 30.54%;
+top: 31.32%;
+bottom: 54.45%;
+color: #4FAFC5;
+}
+
+.accountNumber{
+  position: absolute;
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #003B4F;
+}
+
+.totalPrice{
+  position: absolute;
+left: 9.4%;
+right: 9.4%;
+top: 54.45%;
+bottom: 28.47%;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+color: #4FAFC5;
+}
+.price{
+  position: absolute;
+left: 9.4%;
+right: 9.4%;
+top: 54.45%;
+bottom: 28.47%;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+color: #003B4F;
+}
+
+.addPrice{
+  position: absolute;
+left: 10.4%;
+right: 27.52%;
+top: 79.72%;
+bottom: 5.69%;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #003B4F;
+}
+
+.logo{
+  position: absolute;
+left: 9.4%;
+right: 57.72%;
+top: 7.12%;
+bottom: 76.51%;
+
+background: #C4C4C4;
+border-radius: 5px;
+}
+.inputCheckbox{
+  position: absolute;
+left: 72.82%;
+right: 13.42%;
+top: 79.72%;
+bottom: 5.69%;
+}
+
+.summary{
+  position: absolute;
+width: 374px;
+height: 521px;
+left: 1019px;
+top: 243px;
+background: #E3AB14;
+border-radius: 5px;
+}
+.pr{
+  display: flex;
+  flex-wrap: wrap;
+}
