@@ -1,5 +1,6 @@
 // primera pantalla feed
 import React from 'react' ;
+import {Link} from 'react-router-dom'
 import './dataStart.css'
 
 const DataStart = () =>{
@@ -14,19 +15,21 @@ const DataStart = () =>{
         {/* <p className="intruccionStart">¿Qué quieres hacer primero?</p>  */}
       </div>
      <div className="containerButtonOptions">
-     <button onClick={()=>{alert("sjhajshdajs")}}className="containerOption">
+     <Link to="PaymentMethod"><button className="containerOption">
        <p className="titleOption">Métodos de Pago</p>
        <hr/>
        <p className="add">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
       
-      </button> 
+      </button>
+      </Link> 
 
-      <button className="containerOption">
+      <Link to="AddAccount"><button className="containerOption">
        <p className="titleOption">Cuentas</p>
        <hr/>
        <p className="add">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
        
       </button>
+      </Link>
 
       </div> 
 
