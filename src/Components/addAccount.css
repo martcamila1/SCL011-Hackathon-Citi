@@ -1,0 +1,129 @@
+/* #combo-box-demo{
+ margin-left: 300px;
+} */
+
+.titleIncription{
+  position: absolute;
+width: 806px;
+height: 102px;
+left: 536px;
+top: 50px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 60px;
+color: #27292C
+}
+
+.containerIncription{
+  position: absolute;
+width: 858px;
+height: 616px;
+left: 484px;
+top: 210px;
+background: #FFFFFF;
+border-radius: 15px;
+}
+.intruccion{
+position: absolute;
+    width: 633px;
+    height: 45px;
+    left: 650px;
+    top: 230px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #4FAFC5;
+    margin-top: 50px;
+}
+
+.inputNumber{
+  background: #FFFFFF;
+/* VERDE */
+
+border: 2px solid #4AC91E;
+box-sizing: border-box;
+/* Efecto botón */
+
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+position: absolute;
+width: 425px;
+height: 108px;
+left: 704px;
+top: 464px;
+margin-top: 60px;
+}
+
+.inputEmp{
+  background: #FFFFFF;
+/* AZUL PRINCIPAL */
+
+border: 2px solid #003B4F;
+box-sizing: border-box;
+/* Efecto botón */
+
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+position: absolute;
+width: 425px;
+height: 108px;
+left: 704px;
+top: 464px;
+margin-top: 60p;
+
+}
+.text2{
+  position: relative;
+    left: 720px;
+    right: 0%;
+    top: 460px;
+    bottom: 0%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #003B4F;
+}
+.text1{
+  position: relative;
+  left: 720px;
+  right: 0%;
+  top: 570px;
+  bottom: 0%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #003B4F;
+}
+
+.buttonsend{
+  position: absolute;
+width: 163px;
+height: 62px;
+left: 952px;
+top: 706px;
+background: #003B4F;
+
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* GRIS */
+
+color: #F9F9F9;
+justify-content: center;
+}
