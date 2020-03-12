@@ -159,7 +159,7 @@ border-radius: 15px 15px 0px 0px;
 width: 374px;
 height: 648px;
 left: 1019px;
-top: 243px;
+top: 100px;
 margin-left: 100px;
 }
 .pr{
@@ -169,8 +169,8 @@ margin-left: 100px;
     flex-wrap: wrap;
     
     position: relative;
-    top: 200px;
-    height: 800px;
+    top: 50px;
+    height: 500px;
     width: 800px;
 }
 
@@ -336,4 +336,17 @@ bottom: 19.94%;
     align-items: center;
     text-align: center;
     color: #003B4F;
+}
+.page{
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 60px;
+
+/* AZUL PRINCIPAL */
+
+color: #003B4F;
+margin-left: 450px;
+    margin-bottom: 0px;
 }

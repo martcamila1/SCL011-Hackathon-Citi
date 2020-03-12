@@ -1,91 +1,180 @@
 .iniSignIn{
   width: 298px;
   height: 281px;
-  left: 44px;
-  top: 156px;
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
-  margin-left: 40px;
-  margin-bottom: 40px;
-}
-
-.imgRegistration{
-  width: 322px;
-  height: 830px;
-  left: 383px;
-  top: 96px;
-  background-color: cadetblue;
-  margin-left: 40px;
-
-}
-.inputSign{
-  width: 425px;
-  height: 87px;
-  left: 853px;
-  top: 278px;
-  margin-bottom: 48px;
-}
-.containerSignIn{
-  display: flex;
-  flex-direction: row;
-}
-#inputSign1{
-  margin-top:200px
-}
-
-.containerInputSignIn{
-  display: flex;
-  flex-direction: column;
-  margin-left: 162px;
+  left: 1061px;
+  top: 163px;
+  margin-top: 68px;
+  margin-bottom: 135px;
+  }
   
-}
-
-.buttonSignIn{
-  width: 425px;
-  height: 88px;
-  left: 853px;
-  top: 662px;
-}
-
-.buttonSignIn2{
+  .imgRegistrationSign{
+    width: 322px;
+    height: 830px;
+    left: 383px;
+    top: 96px;
+    background-color: cadetblue;
+    margin-left: 40px;
+  
+  }
+  .inputSign{
+    width: 400px;
+      height: 80px;
+      left: 0px;
+      top: 0px;
+      position: relative;
+      background: #FFFFFF;
+      border: 2px solid #4AC91E;
+      box-sizing: border-box;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      margin-top: 30px;
+      padding: 10px
+  
+  }
+  .containerSignIn{
+    display: flex;
+    flex-direction: row;
+  }
+  #inputSign1{
+    margin-top:200px
+  }
+  
+  .containerInputSignIn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 482px;
+    
+  }
+  
+  .buttonSignIn{
+    width: 400px;
+    height: 80px;
+    left: 237px;
+    top: 404px;
+    background: #003B4F;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 150px;
+    color: #ffffff;
+    font-size: 20px;
+  line-height: 24px;
+  }
+  
+  .buttonSignIn2{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    width: 200px;
+    height: 60px;
+    margin: 160px 30px 40px 70px;
+  }
+  
+  .SignIn{
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140.62%;
+  color: #000000;
+  margin-left: 22px;
+  margin-top: 37px;
   position: absolute;
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
-  font-family: Roboto;
+  }
+  
+  .textSignIn{
+    position: absolute;
+    font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 140.62%;
+  color: #000000;
+  margin-left: 22px;
+  margin-bottom: 77px;
+  margin-top: 77px;
+  }
+  
+  .containerSign3{
+    position: absolute;
+  width: 494px;
+  height: 830px;
+  left: 949px;
+  top: 97px;
+  background: #F9F9F9;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  text-align: center;
-  color: #FFFFFF;
-  width: 200px;
-  height: 60px;
-  margin: 160px 30px 40px 70px;
-}
-
-.SignIn{
-  font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 140.62%;
-color: #000000;
-margin-left: 22px;
-margin-top: 37px;
-position: absolute;
-}
-
-.textSignIn{
-  position: absolute;
-  font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 140.62%;
-color: #000000;
-margin-left: 22px;
-margin-bottom: 77px;
-margin-top: 77px;
-}
+  
+  }
+  .containerButton2{
+    position: absolute;
+  width: 383px;
+  height: 927px;
+  left: 1150px;
+  top: -1px;
+  
+  /* BLANCO */
+  
+  background: #FFFFFF;
+  /* Efecto botón */
+  
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  .ini3{
+    position: absolute;
+    width: 298px;
+    height: 281px;
+    left: 40px;
+    top: 50px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  font-feature-settings: 'liga' off;
+  
+  /* GRIS */
+  
+  color: #F9F9F9;
+  background: #4FAFC5;
+  border-radius: 20px
+  }
+  .ini4{
+    position: relative;
+    width: 298px;
+    height: 281px;
+    left: 40px;
+    top: 400px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    background: #E3AB14;
+    border-radius: 20px;
+    
+  }
+  
+  .title3 {
+    position: absolute;
+    width: 339px;
+    height: 224px;
+    left: 81px;
+    top: 120px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'liga' off;
+  }
