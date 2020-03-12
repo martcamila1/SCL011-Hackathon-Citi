@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
       
       <Route exact path="/" component={ Registration}></Route>
-      <Route path="/Login" component={Signin}></Route>
+      <Route path="/Signin" component={Signin}></Route>
       <Route path="/Feed" component={Feed}></Route>
       <Route path="/Pago" component={Pago}></Route>
       <Route path="/AddAccount" component={AddAccount}></Route>

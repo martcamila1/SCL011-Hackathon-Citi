@@ -7,30 +7,29 @@ const DataStart = () =>{
   return(
     <div className="containerDataStart">
       <div className="containerText">
-      <h2 className="title">Inscribe tus datos antes de comenzar</h2>
-      <p className="intruccion">Es necesario que hagas esto porqué si, yo te lo ordeno dolor sit amet, 
+      <h2 className="title">¿Qué quieres hacer ?</h2>
+      <p className="intruccion2">Es necesario que hagas esto porqué si, yo te lo ordeno dolor sit amet, 
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
          et dolore magna aliqua.
          </p>
         {/* <p className="intruccionStart">¿Qué quieres hacer primero?</p>  */}
       </div>
      <div className="containerButtonOptions">
-     <Link to="PaymentMethod"><button className="containerOption">
-       <p className="titleOption">Métodos de Pago</p>
-       <hr/>
-       <p className="add">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+     <Link to="/AddAccount"><button className="containerOption">
+       <p className="titleOption">MEDIO DE PAGO</p>
       
-      </button>
-      </Link> 
+       
+      
+      </button> 
+      </Link>
 
-      <Link to="AddAccount"><button className="containerOption">
-       <p className="titleOption">Cuentas</p>
-       <hr/>
-       <p className="add">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+      <Link to="/PaymentMethod"><button className="containerOption">
+       <p className="titleOption">CUENTA DE SERVICIO</p>
+       
+      
        
       </button>
       </Link>
-
       </div> 
 
     </div>

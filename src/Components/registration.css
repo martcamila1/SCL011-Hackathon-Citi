@@ -1,11 +1,17 @@
 .inputCreateUser{
-  width: 425px;
-  height: 87px;
-  left: 853px;
-  top: 179px;
-  margin-bottom: 40px;
-  margin-left: 148px;
-  border-radius: 8px;
+ 
+  width: 400px;
+    height: 80px;
+    left: 470px;
+    top: 40px;
+    position: relative;
+    background: #FFFFFF;
+    border: 2px solid #4AC91E;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 10px;
 }
 
 .containerInput{
@@ -14,11 +20,46 @@
 }
 
 .buttonRegistration{
-  width: 425px;
-  height: 88px;
-  left: 853px;
-  top: 761px;
-  margin-left: 148px;
+  position: absolute;
+width: 400px;
+height: 80px;
+left: 469px;
+top: 620px;
+background: #003B4F;
+/* Efecto botón */
+
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* GRIS */
+
+color: #F9F9F9;
+justify-content: center;
+}
+
+.containerButton{
+  position: absolute;
+width: 383px;
+height: 927px;
+left: 1150px;
+top: -1px;
+
+/* BLANCO */
+
+background: #FFFFFF;
+/* Efecto botón */
+
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .imgRegistration{
@@ -31,32 +72,53 @@
 }
 
 .ini{
+  position: absolute;
   width: 298px;
   height: 281px;
-  left: 42px;
-  top: 156px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-right: 48px;
-  margin-left: 42px;
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
+  left: 40px;
+  top: 50px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+font-feature-settings: 'liga' off;
+
+/* GRIS */
+
+color: #F9F9F9;
+background: #4FAFC5;
+border-radius: 20px
+}
+.ini2{
+  position: relative;
+  width: 298px;
+  height: 281px;
+  left: 40px;
+  top: 400px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  background: #E3AB14;
+  border-radius: 20px;
+  
 }
 
-.containerRegistration2{
+.containerRegistration1 {
   display: flex;
   flex-direction: row;
 }
 .login{
-  font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 140.62%;
-color: #000000;
-margin-left: 22px;
-margin-top: 37px;
-position: absolute;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  padding-top: 200px;
+    padding-left: 30px;
+  
+  /* GRIS */
+  
+  color: #F9F9F9
 
 }
 .textLogin{
@@ -90,4 +152,25 @@ margin-top: 77px;
   margin: 160px 30px 40px 70px;
 
   
+}
+
+.title2{
+  position: absolute;
+width: 339px;
+height: 224px;
+left: 81px;
+top: 75px;
+
+/* H3 */
+
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+font-feature-settings: 'liga' off;
+
+
 }

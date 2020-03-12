@@ -14,7 +14,7 @@ width: 484px;
 height: 101px;
 left: 482px;
 top: 118px;
-font-family: Lato;
+font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 50px;
@@ -22,19 +22,24 @@ line-height: 60px;
 color: #27292C;
 margin: 0px;
 }
-.intruccion{
-position: absolute;
-width: 667px;
-height: 85px;
-left: 478px;
-top: 200px;
-font-family: 'Lato', sans-serif;
+.intruccion2{
+  position: absolute;
+width: 679px;
+height: 100px;
+left: 482px;
+top: 278px;
+
+/* H4 */
+
+font-family: Lato;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
-line-height: 140.62%;
-color: #000000;
-margin-top: 68px;
+font-size: 24px;
+line-height: 29px;
+
+/* NEGRO IMPURO */
+
+color: #27292C;
 }
 .intruccionStart{
   position: absolute;
@@ -53,14 +58,30 @@ margin-top: 68px;
 
 .containerOption{
   position: relative;
-  width: 298px;
-  height: 281px;
-  left: 536px;
-  top: 430px;
-  background: #1BD1BC;
-  border-radius: 5px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-  margin-right: 62px;
+width: 298px;
+height: 281px;
+left: 482px;
+top: 463px;
+
+/* Efecto botón */
+
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+background: #4FAFC5;
+border-radius: 20px;
+margin-right: 83px;
+
+
+/* H3 */
+
+font-family: Lato;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+
+/* GRIS */
+
+color: #F9F9F9
 }
 .containerOption:focus{
   outline: brown 2px solid;
