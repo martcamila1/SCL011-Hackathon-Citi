@@ -1,8 +1,8 @@
-.payMethod-container, .credit-card-container {
+.payMethod-container {
   margin-left: 450px;
 }
 
-.payMethod-body, .credit-card-body {
+.payMethod-body {
   background-color: #ffffff;
   border-radius: 15px;
   display: flex;
@@ -73,6 +73,10 @@ label {
   padding-left: 30px;
   font-size: 20px;
   color: #003B4F;
+  position: relative;
+  left: 0;
+  top: 0;
+  margin-left: 0;
 }
 
 .action-btns{

@@ -10,6 +10,7 @@ import PaymentMethod from './Components/paymentMethod';
 import CreditCard from './Components/creditCard';
 import CreditCardResumen from './Components/creditCardResumen';
 import DebitCard from './Components/debitCard';
+import DebitCardResumen from './Components/debitCardResumen';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Route path="/CreditCard" component={CreditCard}></Route>
       <Route path="/CreditCardResumen" component={CreditCardResumen}></Route>
       <Route path="/DebitCard" component={DebitCard}></Route>
+      <Route path="/DebitCardResumen" component={DebitCardResumen}></Route>
     
       </BrowserRouter>
     </div>
