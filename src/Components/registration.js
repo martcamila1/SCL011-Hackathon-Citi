@@ -37,23 +37,23 @@ const  Registration = ()=>{
       <button onClick={sendFirebase} className="buttonRegistration">Crear Cuenta</button>
       </div>
       <div className="containerButton">
-      <Link to="Signin"> <div className="ini">
+      <Link to="Signin"> <button className="ini">
           <div className="">
          <p className="login">Iniciar sesión</p>
          
           
           </div>
          
-        </div>
+        </button>
         </Link>
-        <Link to="/"><div className="ini2">
+        <Link to="/"><button className="ini2">
         <div className="">
           <p className="login">Craer Tu Cuenta</p>
           
           
           </div>
           
-        </div>
+        </button>
         </Link>
       </div>
       
